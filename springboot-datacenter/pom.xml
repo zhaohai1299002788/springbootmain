@@ -2,21 +2,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>com.example</groupId>
-    <artifactId>springboot-datacenter</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
-
-    <name>springboot-datacenter</name>
-    <description>Demo project for Spring Boot</description>
-
     <parent>
         <groupId>com.example</groupId>
         <artifactId>springboot-main</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
+    <artifactId>springboot-datacenter</artifactId>
+
+    <name>springboot-datacenter</name>
+    <description>Demo project for Spring Boot</description>
 
     <dependencies>
         <dependency>
@@ -53,7 +48,6 @@
             <groupId>com.example</groupId>
             <artifactId>springboot-utils</artifactId>
             <version>${springboot-utils.version}</version>
-            <scope>provide</scope>
         </dependency>
         <dependency>
             <groupId>com.alibaba</groupId>
