@@ -39,7 +39,15 @@
         <dependency>
             <groupId>com.example</groupId>
             <artifactId>springboot-utils</artifactId>
-            <version>${springboot-utils.version}</version>
+        </dependency>
+        <!--引入swagger-->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
         </dependency>
     </dependencies>
 
