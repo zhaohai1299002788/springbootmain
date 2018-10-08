@@ -3,7 +3,7 @@
     # 分布式框架SpringBoot  
     # 服务治理 : SpringCloud(负载均衡,断路器,集群)
     # Web : SpringMVC
-    # Dao : Mybatis,Druid(监控)
+    # Dao : Mybatis,Druid(监控)(MyBatis-Plus)
     # 前端 : 待定Vue框架
     # 单元测试 : Junit+Mock+代码覆盖率
     # 日志 : Slf4j+logbcak+moskito(日志监控)
