@@ -1,6 +1,6 @@
-package com.example.datacenter.springbootdatacenter.config;
+package com.example.springbootutils.utils.config;
 
-import com.example.datacenter.springbootdatacenter.snowflake.SnowflakeIdFactory;
+import com.example.springbootutils.utils.snowflake.SnowflakeIdFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class BeanConfig {
 
-    //@Bean
+    @Bean
     public SnowflakeIdFactory getSnowflakeId(SnowflakeIdFactory snowflakeIdFactory) {
         return snowflakeIdFactory;
     }

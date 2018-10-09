@@ -1,6 +1,6 @@
-package com.example.datacenter.springbootdatacenter.service;
+package com.example.springbootutils.controller;
 
-import com.example.springbootutils.utils.DateUtils;
+import com.example.springbootutils.utils.util.DateUtils;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

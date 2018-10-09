@@ -1,4 +1,4 @@
-package com.example.datacenter.springbootdatacenter.snowflake;
+package com.example.springbootutils.utils.snowflake;
 
 import lombok.ToString;
 import lombok.extern.slf4j.Slf4j;

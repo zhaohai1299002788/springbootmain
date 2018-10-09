@@ -1,7 +1,10 @@
 server:
   port: 8082
 
+
 spring:
+  application:
+    name: springboot-datacenter
   devtools:
     restart:
       #热部署生效
@@ -44,3 +47,9 @@ pagehelper:
   reasonable: true
   supportMethodsArguments: true
   params: count=countSql
+eureka:
+  instance:
+    prefer-ip-address: true # 注册服务的时候使用服务的ip地址
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka/

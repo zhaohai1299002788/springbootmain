@@ -6,6 +6,8 @@ server:
   port: 8080
 
 spring:
+  application:
+    name: springboot-api
   devtools:
     restart:
       #热部署生效
@@ -17,3 +19,9 @@ spring:
   redis:
     host: 192.168.6.128
     port: 6379
+eureka:
+  instance:
+    prefer-ip-address: true # 注册服务的时候使用服务的ip地址
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka/

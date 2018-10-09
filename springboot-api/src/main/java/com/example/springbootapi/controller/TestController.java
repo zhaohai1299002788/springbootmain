@@ -1,6 +1,6 @@
 package com.example.springbootapi.controller;
 
-import com.example.springbootutils.utils.DateUtils;
+import com.example.springbootutils.utils.util.DateUtils;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;

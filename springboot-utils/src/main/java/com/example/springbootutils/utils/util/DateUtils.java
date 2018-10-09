@@ -1,4 +1,4 @@
-package com.example.springbootutils.utils;
+package com.example.springbootutils.utils.util;
 
 import java.util.Date;
 
