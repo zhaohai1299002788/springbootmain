@@ -10,8 +10,6 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>springboot-utils</artifactId>
-    <name>springboot-utils</name>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>

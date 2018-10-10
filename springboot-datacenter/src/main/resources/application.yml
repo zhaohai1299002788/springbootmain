@@ -50,6 +50,13 @@ pagehelper:
 eureka:
   instance:
     prefer-ip-address: true # 注册服务的时候使用服务的ip地址
+    instance-id: springboot-datacenter
   client:
     service-url:
       defaultZone: http://localhost:8081/eureka/
+
+info:
+  app.name: springboot-datacenter
+  company.name: www.example.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$

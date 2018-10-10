@@ -8,8 +8,9 @@
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
+    <groupId>com.example</groupId>
     <artifactId>springboot-datacenter</artifactId>
-    <name>springboot-datacenter</name>
+    <version>0.0.1-SNAPSHOT</version>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -27,6 +28,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
             <scope>runtime</scope>
+        </dependency>
+        <!--eureka的info信息-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
         <dependency>
             <groupId>mysql</groupId>
@@ -56,15 +62,5 @@
             <artifactId>spring-rabbit</artifactId>
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
-
 
 </project>

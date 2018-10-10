@@ -1,5 +1,16 @@
 server:
   port: 8081
+spring:
+  application:
+    name: eureka-server
+  devtools:
+    restart:
+      #热部署生效
+      enabled: true
+      #设置重启的目录
+      additional-paths: eureka-server/src/main/java
+      #classpath目录下的WEB-INF文件夹内容修改不重启
+      exclude: WEB-INF/**
 eureka:
   instance:
     hostname: eureka-server # eureka实例的主机名

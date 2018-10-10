@@ -10,8 +10,6 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>eureka-server</artifactId>
-    <name>eureka-server</name>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -22,6 +20,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
         </dependency>
     </dependencies>
 

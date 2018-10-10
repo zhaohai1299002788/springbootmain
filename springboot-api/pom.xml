@@ -9,7 +9,6 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>springboot-api</artifactId>
-    <name>springboot-api</name>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
