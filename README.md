@@ -10,7 +10,7 @@
     # 分布式锁 : 提供maven坐标(redis和zookeeper实现)
     # 分布式事务 : LCN和EasyTransaction
     # 数据库 : MySQL
-    # 分布式ID : snowflake方案(UidGenerator 由百度开发，是Java实现的, 基于 Snowflake算法的唯一ID生成器)
+    # 分布式ID : snowflake方案(UidGenerator 由百度开发，是Java实现的, 基于 Snowflake算法的唯一ID生成器),美团Leaf
     # 自动化构建和测试：Maven,Jenkins
     # 容器平台：Docker
     # 消息队列：Kafka,RocketMQ
