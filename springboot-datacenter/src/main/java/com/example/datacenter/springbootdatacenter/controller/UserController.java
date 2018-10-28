@@ -22,7 +22,7 @@ public class UserController {
     @GetMapping("ticket")
     public String getTicket() {
         DataUtils dataUtils = new DataUtils();
-        Date date = dataUtils.getDate();
+        Date date = new Date();
         return tickeService.getTicket();
     }
 

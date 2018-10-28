@@ -1,6 +1,5 @@
 package com.example.springbootapi.controller;
 
-import com.example.springbootutils.utils.util.DateUtils;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
@@ -26,7 +25,7 @@ public class TestController {
     @ApiOperation(value = "展示首页信息", notes = "展示首页信息")
     @GetMapping("date")
     public String getDate() {
-        Date date = DateUtils.getDate();
+        Date date = new Date();
         // 设置日期格式
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         if (log.isInfoEnabled()) {
