@@ -61,6 +61,11 @@
             <groupId>org.springframework.amqp</groupId>
             <artifactId>spring-rabbit</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.github.zhaohai1299002788</groupId>
+            <artifactId>springboot-commons</artifactId>
+            <version>0.0.1</version>
+        </dependency>
     </dependencies>
 
 </project>

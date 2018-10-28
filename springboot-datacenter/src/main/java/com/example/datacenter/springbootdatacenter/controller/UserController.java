@@ -1,9 +1,12 @@
 package com.example.datacenter.springbootdatacenter.controller;
 
 import com.example.datacenter.springbootdatacenter.service.TickeService;
+import com.github.zhaohzi1299002788.DataUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.Date;
 
 /**
  * @Author: 海仔
@@ -18,6 +21,8 @@ public class UserController {
 
     @GetMapping("ticket")
     public String getTicket() {
+        DataUtils dataUtils = new DataUtils();
+        Date date = dataUtils.getDate();
         return tickeService.getTicket();
     }
 
