@@ -34,4 +34,12 @@ public class TestController {
         return "当前时间 ： " + simpleDateFormat.format(date);
     }
 
+    @GetMapping("time")
+    public String getTime() {
+        Date date = new Date();
+        long time = date.getTime();
+        String string = Long.toString(time);
+        return string;
+    }
+
 }
