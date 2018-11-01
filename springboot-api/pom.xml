@@ -73,7 +73,7 @@
         </plugins>
     </build>-->
     <build>
-        <finalName>api</finalName>
+        <finalName>app</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
@@ -83,7 +83,7 @@
             <plugin>
                 <groupId>com.spotify</groupId>
                 <artifactId>docker-maven-plugin</artifactId>
-                <version>0.4.13</version>
+                <version>0.4.14</version>
                 <configuration>
                     <imageName>192.168.0.10:5000/${project.artifactId}:${project.version}</imageName>
                     <baseImage>jdk1.8</baseImage>
